@@ -24,8 +24,9 @@ public class Controller implements ErrorController {
     public ResponseEntity<?> returnSeat( @RequestBody Ticket ticket ) {
         return cinemaRoom.refund( ticket );
     }
-
-    @PostMapping("/stats")
+    
+    // to pass tests reset Mapping
+    @GetMapping("/stats"). // in tests used PostMapping
     public ResponseEntity<?> returnStats( @RequestParam ( required = false) String password) {
         return cinemaRoom.stats( password );
     }
