@@ -9,3 +9,4 @@ In this project, i created a simple Spring REST service that will help you manag
 Here's the link to the project: https://hyperskill.org/projects/189
 
 Check out my profile: https://hyperskill.org/profile/207447963
+![](./spring-boot.png)
